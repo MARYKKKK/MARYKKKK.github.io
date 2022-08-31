@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+.font-awesome{
+    display: flex;
+    gap: 10px;
+    row-gap: 20px;
+    padding: 5px 5px;
+    margin: 20px 10px;
+}
+
+
+    
+        .logo-footer{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            margin-right: 5px;
+            }
+        
+        
+        .img-logo{
+            
+            width: 173px;
+            background-size: 100%;
+            
+            
+            background-repeat: no-repeat;
+            background-position: center center;
+            overflow: hidden;
+            height: 53px;
+            
+        }
+        svg {
+            padding: 2px;
+            margin: auto 0px 21px;
+        }
+        path{
+            
+            fill: #fff;
+        }
+   
+
+.contenu-footer{
+    
+    /*flex-shrink: 0;*/
+    background-color: #333;
+    color: #ffff;
+    width: 100%;  
+    i{
+        padding: 5px;
+        color: #ffff;
+    }
+    a{
+        margin: 2px 20px 2px 60px;
+        display: flex;
+        color: #ffff;
+        align-items: flex-start;
+    }
+}
+
+
+.listes-services{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+    li{
+        padding: 2px 0px ;
+    }
+}
