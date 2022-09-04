@@ -10,9 +10,23 @@
     .contenu .item-contenu {
         padding: 10px;
     }
-    
+    h3{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        margin: 15px 2px 9px 2px;
+    }
+    span.h2 {
+        /*width: 150px;*/
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
 
 }
+}
+
 @media screen and (max-width: 800px){
     .heading {
         
@@ -99,13 +113,19 @@
         font-size: 16px;
         margin: 15px 2px 9px 2px;
     }
-    span.h2 {
-        width: 150px;
+    h3{
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        margin: 0;
-        display: block;
+        font-size: 12px;
+        margin: 15px 2px 9px 2px;
+    }
+    span.h2 {
+       
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
     }
 }
 @media screen and (max-width: 600px){
@@ -121,12 +141,13 @@
         font-size: 18px;
     }
     .section{
+        margin: 10px 10px;
         padding: 15px;
         font-size: 20px;
     }
     .menu {
         
-        margin: 35px; 
+        margin: 13px; 
         align-items: flex-start;
         
     }
@@ -134,24 +155,33 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 16px;
+        font-size: 14px;
         margin: 15px 2px 9px 2px;
     }
-    span.h2 {
-        width: 150px;
+    h3{
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        margin: 0;
-        display: block;
+        font-size: 12px;
+        margin: 15px 2px 9px 2px;
     }
+    span.h2 {
+        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+
+    
+    
     .d_flex {
-        margin: 35px;
+        margin: 13px;
         align-items: flex-start;
     }
     .d-content {
         align-items: flex-start;
-        margin: 35px 
+        margin: 13px 
         }
         .contenu:hover .price {
             transform: translateX(-45px);
@@ -171,4 +201,32 @@
       
 }
 
+@media screen and (max-width: 345px){
+    h2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        margin: 15px 2px 9px 2px;
+    }
+    h3{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        margin: 15px 2px 9px 2px;
+    }
+    span.h2 {
+        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        margin: 15px 2px 9px 2px;
+        
+        
+    }
+}
 
+
+  
