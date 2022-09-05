@@ -145,19 +145,16 @@ body {
   overflow: hidden;
   height: 53px;
 }
-.img-logopath {
-  fill: rgb(246, 243, 243);
-}
 
 svg {
   padding: 2px;
   margin: auto 0px 21px;
 }
 
-/*path{
+path {
+  fill: rgb(246, 243, 243);
+}
 
-    fill: rgb(246, 243, 243);
-}*/
 .contenu-footer {
   /*flex-shrink: 0;*/
   cursor: pointer;
@@ -207,17 +204,14 @@ svg {
     height: 70px;
 
 }*/
-.img-logo-head {
+.img-logo-head path {
   width: 180px;
   background-size: 100%;
   background-repeat: no-repeat;
   object-position: center center;
   overflow: hidden;
   height: 70px;
-}
-
-path {
-  fill: rgb(15, 8, 8);
+  fill: rgb(14, 13, 13);
 }
 
 .nav_link-search {
@@ -532,7 +526,7 @@ img {
   object-position: 0% 55%;
   object-fit: cover;
   overflow: hidden;
-  height: 131px;
+  height: 276px;
 }
 
 /*menu a la francaise....la palette...les delices...*/
@@ -630,6 +624,7 @@ img {
 .contenu h3 {
   font-weight: 600;
   font-size: 13px;
+  margin: 0px 9px 8px 2px;
 }
 
 .item-contenu {
@@ -913,12 +908,14 @@ span.h2 {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 12px;
-    margin: 15px 2px 9px 2px;
+    margin: 0px;
+    padding: 3px 3px;
   }
   span.h2 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 15px 2px 9px 2px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -953,12 +950,14 @@ span.h2 {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 12px;
-    margin: 15px 2px 9px 2px;
+    margin: 0px;
+    padding: 3px 3px;
   }
   span.h2 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 15px 2px 9px 2px;
   }
   .d_flex {
     margin: 13px;
@@ -992,13 +991,15 @@ span.h2 {
     margin: 15px 2px 9px 2px;
   }
   h3 {
+    width: 290px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 12px;
     margin: 15px 2px 9px 2px;
+    padding: 3px 3px;
   }
-  span.h2 {
+  .h2 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

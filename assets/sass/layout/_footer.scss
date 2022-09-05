@@ -34,20 +34,17 @@
     background-position: center center;
     overflow: hidden;
     height: 53px;
-    &path{
-            
-    fill: rgb(246, 243, 243);
-}
+   
             
 }
 svg {
     padding: 2px;
     margin: auto 0px 21px;
 }
-        /*path{
+path{
             
-            fill: rgb(246, 243, 243);
-        }*/
+fill: rgb(246, 243, 243);
+}
    
 
 .contenu-footer{

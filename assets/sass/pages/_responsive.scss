@@ -118,13 +118,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
         font-size: 12px;
-        margin: 15px 2px 9px 2px;
+        margin: 0px;
+        padding: 3px 3px;
     }
     span.h2 {
        
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        margin: 15px 2px 9px 2px;
         
     }
 }
@@ -163,14 +165,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
         font-size: 12px;
-        margin: 15px 2px 9px 2px;
+        margin: 0px;
+        padding: 3px 3px;
     }
     span.h2 {
         
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        
+        margin: 15px 2px 9px 2px;
     }
 
     
@@ -210,19 +213,22 @@
         margin: 15px 2px 9px 2px;
     }
     h3{
+        width: 290px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         font-size: 12px;
         margin: 15px 2px 9px 2px;
+        padding: 3px 3px;
     }
-    span.h2 {
+    .h2 {
         
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         font-size: 14px;
         margin: 15px 2px 9px 2px;
+       
         
         
     }
