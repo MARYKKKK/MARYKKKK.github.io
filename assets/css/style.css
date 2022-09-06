@@ -27,7 +27,7 @@ body {
 }
 
 .loader-container {
-  position: fixed;
+  position: absolute;
   background: rgba(241, 241, 241, 0.9960784314);
   width: 100%;
   height: 100vh;
@@ -38,6 +38,7 @@ body {
   animation-iteration-count: 1;
   animation: deplacement 3s;
   opacity: 0;
+  z-index: -1;
 }
 
 @keyframes deplacement {
@@ -147,6 +148,7 @@ body {
 }
 
 svg {
+  cursor: pointer;
   padding: 2px;
   margin: auto 0px 21px;
 }
@@ -157,10 +159,12 @@ path {
 
 .contenu-footer {
   /*flex-shrink: 0;*/
+  position: static;
   cursor: pointer;
   background-color: #333;
   color: white;
   width: 100%;
+  z-index: 9999;
 }
 .contenu-footer i {
   padding: 5px;
@@ -944,14 +948,6 @@ span.h2 {
     text-overflow: ellipsis;
     font-size: 14px;
     margin: 15px 2px 9px 2px;
-  }
-  h3 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 12px;
-    margin: 0px;
-    padding: 3px 3px;
   }
   span.h2 {
     white-space: nowrap;

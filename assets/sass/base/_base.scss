@@ -30,7 +30,7 @@ body{
 }
 
 .loader-container {
-    position: fixed;
+    position: absolute;
     background: rgba(241, 241, 241, 0.9960784314);
     width: 100%;
     height: 100vh;
@@ -41,6 +41,7 @@ body{
     animation-iteration-count: 1;
     animation: deplacement 3s;
     opacity: 0;
+    z-index: -1;
 }
 @keyframes deplacement {
     
